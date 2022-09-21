@@ -7,4 +7,8 @@ console.log("lets a go");
     const popGridView = () => {
 
     }
+
+    const makeTile = () => {
+        
+    }
 })();
