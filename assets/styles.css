@@ -31,3 +31,42 @@ header {
 #buttons button {
     padding: 10px;
 }
+
+#pageView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    cursor: help;
+}
+
+.tile:hover {
+    background-color: rgba(170, 170, 255, 0.477);
+    border-radius: 3px;
+    
+}
+
+.tile img {
+    height: 200px;
+    width: 200px;
+}
+
+.tile p {
+    margin: 0;
+}
+
+.big-artist {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+.big-title {
+    font-family: cursive;
+    color: #757575;
+}

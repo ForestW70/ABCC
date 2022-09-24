@@ -1,7 +1,7 @@
-import { disco } from "./directory.js"
+import { disco, artTile } from "./directory.js"
 
 
-console.log(disco);
+console.log(artTile);
 
 (function(){
 
@@ -10,8 +10,13 @@ console.log(disco);
     const popGridView = () => {
         
         disco.map((album, idx) => {
-            console.log(idx)
+            // console.log(idx)
             makeTile(album);
+        })
+
+        artTile.map((art, idx) => {
+            // console.log(idx);
+            makeTile(art);
         })
     }
 
@@ -22,31 +27,33 @@ console.log(disco);
         gridDiv.classList.add("tile");
 
         const tilePic = document.createElement("img");
-        // tilePic.src = `/goods/${item.artLink}`;
         tilePic.src = item.webLink;
         gridDiv.appendChild(tilePic);
 
-        const bigInfo = document.createElement("p");
-        bigInfo.classList.add("big-info");
-        bigInfo.innerText = `${item.artist} - ${item.title}`;
-        gridDiv.appendChild(bigInfo);
+        const bigArtist = document.createElement("p");
+        bigArtist.classList.add("big-artist");
+        bigArtist.innerText = item.artist;
+        gridDiv.appendChild(bigArtist);
 
-
-
-        // console.log(item)
-        // item.map(infos => {
-        //     const titleRow = document.createElement("p");
-        //     titleRow.innerText = infos;
-        //     titleRow.classList.add(`tile-${infos}`);
-
-        //     gridDiv.appendChild(titleRow);
-
-        // })
+        const bigTitle = document.createElement("p");
+        bigTitle.classList.add("big-title");
+        bigTitle.innerText = item.title;
+        gridDiv.appendChild(bigTitle);
 
         newView.appendChild(gridDiv);
         document.getElementById("pageView").appendChild(newView)
 
     }
+
+    const tileDivs = document.querySelectorAll(".tile");
+    
+    tileDivs.forEach(btn => {
+        btn.addEventListener("click", e => {
+            e.preventDefault();
+            console.log(btn);
+        })
+    })
+
 
 
     popGridView();

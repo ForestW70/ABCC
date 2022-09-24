@@ -168,7 +168,7 @@ export const disco = [
         longArtist: 'Stud Finder',
         releaseDate: 'N/A',
         artLink: 'glyph.png',
-        // webLink: 'https://forestw70.github.io/sketches-bcc-client/assets/images/studs.jpg',
+        webLink: 'https://forestw70.github.io/ABCC/assets/goods/glyph.png',
         trackList: [
             {
                 track: 'Sara / Tony Tonin',
@@ -254,3 +254,90 @@ export const disco = [
         ]
     }
 ];
+
+export const artTile = [
+    {
+        title: "glyph1",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "bcc",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/bcc.png",
+        descrp: "bcc"
+    },
+    {
+        title: "brnr-b-logo",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "glyph1",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "s&ofv2.jpg",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/s&ofv2.jpg",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "glyph1",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "oops",
+        artist: "Stud Finder",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/oops.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "glyph1",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "bcc",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/bcc.png",
+        descrp: "bcc"
+    },
+    {
+        title: "brnr-b-logo",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "glyph1",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "s&ofv2.jpg",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/s&ofv2.jpg",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "glyph1",
+        artist: "Lukasz Mauro",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/glyph.png",
+        descrp: "glyphhen out bro"
+    },
+    {
+        title: "oops",
+        artist: "Stud Finder",
+        webLink: "https://forestw70.github.io/ABCC/assets/goods/oops.png",
+        descrp: "glyphhen out bro"
+    },
+]
